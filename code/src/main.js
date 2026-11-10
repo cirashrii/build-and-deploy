@@ -9,7 +9,5 @@ const render = () => {
   timeContainer.innerText = getTimeString(now);
 }
 
-const unusedVariable = 3;
-
 render();
 setInterval(render, 1000);
